@@ -175,7 +175,7 @@ def lancementpendu(): # Fonction permettant le lancement du jeu
         print("===============")
         lancementpendu() # On relance le choix du mode de jeu
         return
-    print(mot_a_trouver) # Print a réactiver pour voir le mot à trouver pour faire différents tests
+    #print(mot_a_trouver) # Print a réactiver pour voir le mot à trouver pour faire différents tests
     print("Le mot à trouver contient", len(mot_a_trouver), "lettres")
     print("Le mot :", mot_courant)
     demande_lettre() # On demande une lettre à l'utilisateur pour la première fois
